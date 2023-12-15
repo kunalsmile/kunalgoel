@@ -1,0 +1,13 @@
+# card(title=skill["skill"], 
+        #      text="",
+        #      styles={
+        #          "card": {
+        #              "width": "150px",
+        #              "height": "100px"
+        #          }
+        #      } 
+        # )
+
+
+        Visual Studio Code,
+IntelliJ, JIRA, Sumologic, Datadog, GIT, Jenkins, Maven, Confluence, postman, PgAdmin, Postgres, Glassfish, CentOS, Power Automate

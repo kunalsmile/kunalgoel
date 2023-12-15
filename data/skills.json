@@ -1,0 +1,93 @@
+ 
+{
+    "languages":   [
+        {
+            "skill": ".NET",
+            "level": 5,
+            "imageUrl": ""
+        },
+        {
+            "skill": "Core Java",
+            "level": 5,
+            "imageUrl": ""
+        },
+        {
+            "skill": "Javasciprt",
+            "level": 3,
+            "imageUrl": ""
+        },
+        {
+            "skill": "NodeJs",
+            "level": 3,
+            "imageUrl": ""
+        },
+        {
+            "skill": "Typescript",
+            "level": 3,
+            "imageUrl": ""
+        },
+        {
+            "skill": "Postgres",
+            "level": 5,
+            "imageUrl": ""
+        },
+        {
+            "skill": "MSSQL Server",
+            "level": 5,
+            "imageUrl": ""
+        },
+        {
+            "skill": "Shell script",
+            "level": 3,
+            "imageUrl": ""
+        },
+        {
+            "skill": "AWS",
+            "level": 3,
+            "imageUrl": ""
+        }
+
+    ],
+    "tools": [
+        {
+            "skill": "Visual Studio Code",
+            "level": "4",
+            "imageUrl": ""
+        },
+        {
+            "skill": "IntelliJ",
+            "level": "4",
+            "imageUrl": ""
+        },
+        {
+            "skill": "JIRA",
+            "level": "4",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Git",
+            "level": "4",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Jenkins",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Maven",
+            "level": "4",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Power Automate",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Payara/Glassfish",
+            "level": "3",
+            "imageUrl": ""
+        }
+    ]
+}

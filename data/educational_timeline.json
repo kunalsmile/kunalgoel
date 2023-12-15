@@ -1,0 +1,42 @@
+
+{
+    
+    "events": [
+      {
+        "start_date": {
+          "year": "2001",
+          "month":"6"
+        },
+        "end_date": {
+          "year": "2004",
+          "month":"3"
+        },
+        "text": {
+          "headline": "B.Sc. Electronics<br>Ewing Christian College, Prayagraj",
+          "text": ""
+        },
+        "media": {
+            "url": "ecc.png",
+            "caption": "Ewing Christian College"
+        }
+      },
+      {
+        "media": {
+          "url": "",
+          "caption": "SIMSR"
+        },
+        "start_date": {
+          "year": "2005",
+          "month":"6"
+        },
+        "end_date": {
+          "year": "2007",
+          "month":"3"
+        },
+        "text": {
+          "headline": "MCSA<br>SIMSR",
+          "text": ""
+        }
+      }
+    ]
+}

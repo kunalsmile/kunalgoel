@@ -1,0 +1,96 @@
+
+{
+    
+    "events": [
+      {
+        "start_date": {
+          "year": "2007",
+          "month":"2"
+        },
+        "end_date": {
+            "year": "2008",
+            "month":"9"
+          },
+        "text": {
+          "headline": "Junior Software Engineer<br>Reliance Info Solutions Ltd.",
+          "text": "<p>Involved in code construction, designing, client communication, Unit Testing and deployment.</p>"
+        },
+        "media": {
+            "url": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/reliance.jpg",
+            "caption": "Reliance Info Solutions Ltd."
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/kunalsmile/kunalgoel/blob/main/mphasis.png?raw=true",
+          "caption": "Mphasis an HP Company"
+        },
+        "start_date": {
+          "year": "2008",
+          "month":"9"
+        },
+        "end_date": {
+          "year": "2011",
+          "month":"5"
+        },
+        "text": {
+          "headline": "Software Engineer<br>Mphasis an HP company",
+          "text": "<b>Project Name:</b> JetAirways<br>The application is designed for the customers of the Jet Airways India Ltd. This is a Jet Airways Portal accessible by JetPrivilege members, guest users and anonymous users. It provides various functionalities like online booking, Manage Booking, PNR Status, Hotel Booking, Web Check-in, Currency Converter, Time Zone Converter, Time Zone Converter, Forgot Password, Change Password, Mileage Calculator, Jet Wallet (Mobile Ticketing), Flight Status, etc. Involved in code construction, designing, client communication, Unit Testing and deployment."
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/Monitor.png",
+          "caption": "Monitor Group"
+        },
+        "start_date": {
+          "year": "2011",
+          "month":"5"
+        },
+        "end_date": {
+          "year": "2011",
+          "month":"12"
+        },
+        "text": {
+          "headline": "Software Engineer<br>Monitor Group",
+          "text": "<b>Project Name:</b> TimeSheet Management<br>Involved in designing, requirement gathering, coding and maintenance."
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/hexaware.jpg",
+          "caption": "Hexaware"
+        },
+        "start_date": {
+          "year":"2012",
+          "month":"1"
+        },
+        "end_date": {
+          "year":"2012",
+          "month":"10"
+        },
+        "text": {
+          "headline": "Senior Software Engineer<br>Hexaware Technologies",
+          "text": "<b>Project Name: </b>eHealth"
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/NextGen.jpg",
+          "caption": "NextGen Healthcare"
+        },
+        "start_date": {
+          "year":"2012",
+          "month":"10"
+        },
+        "end_date": {
+          "year": "0",
+          "month":"0"
+        },
+        "text": {
+          "headline": "Engineer Manager<br>NextGen Healthcare",
+          "text": "<b>Project Name: </b>HDH"
+        }
+      }
+    ]
+}

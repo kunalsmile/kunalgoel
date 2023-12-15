@@ -4,47 +4,52 @@
         {
             "skill": ".NET",
             "level": 5,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/msdotnet.png"
         },
         {
             "skill": "Core Java",
             "level": 5,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/java.png"
         },
         {
             "skill": "Javasciprt",
             "level": 3,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/javascript.png"
         },
         {
             "skill": "NodeJs",
             "level": 3,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/nodejs.png"
         },
         {
             "skill": "Typescript",
             "level": 3,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/typescript.png"
         },
         {
             "skill": "Postgres",
             "level": 5,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/postgres.png"
         },
         {
             "skill": "MSSQL Server",
             "level": 5,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/mssql.jpg"
         },
         {
             "skill": "Shell script",
             "level": 3,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/shellscript.png"
         },
         {
             "skill": "AWS",
             "level": 3,
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/aws.jpg"
+        },
+        {
+            "skill": "Angular",
+            "level": 3,
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/angular.png"
         }
 
     ],
@@ -52,42 +57,42 @@
         {
             "skill": "Visual Studio Code",
             "level": "4",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/vscode.png"
         },
         {
             "skill": "IntelliJ",
             "level": "4",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/intellij.jpg"
         },
         {
             "skill": "JIRA",
             "level": "4",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/jira.jpg"
         },
         {
             "skill": "Git",
             "level": "4",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/git.jpg"
         },
         {
             "skill": "Jenkins",
             "level": "3",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/jenkins.jpg"
         },
         {
             "skill": "Maven",
             "level": "4",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/maven.jpg"
         },
         {
             "skill": "Power Automate",
             "level": "3",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/powerautomate.png"
         },
         {
             "skill": "Payara/Glassfish",
             "level": "3",
-            "imageUrl": ""
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/payara.png"
         }
     ]
 }

@@ -52,17 +52,19 @@ def createSidebar():
 
 def create_skill():
     st.header("Skills")
-    languageColumn, technologyColumn, toolsColumn = st.columns(3)
+    languageColumn, toolsColumn, technologyColumn = st.columns(3)
     languageColumn.info("Languages & Platforms")
     technologyColumn.info("Technologies")
     toolsColumn.info("Tools")
+
     with open('./data/skills.json', "r") as f:
         data = f.read()
     skills = json.loads(data)
     for skill in skills["languages"]:
-        languageColumn.button(skill["skill"])
+        languageColumn.image(skill["imageUrl"], width=100)
     for tool in skills["tools"]:
-        toolsColumn.button(tool["skill"])    
+        toolsColumn.image(tool["imageUrl"], width=100)
+        # toolsColumn.button(tool["skill"])    
 
 
 create_skill()

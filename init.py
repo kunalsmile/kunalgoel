@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_timeline import timeline
 import json
-from logging import getLogger
 from datetime import datetime
 
 st.set_page_config(

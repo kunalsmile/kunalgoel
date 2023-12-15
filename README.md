@@ -16,7 +16,9 @@ The project has a dependency on an external component streamlit_timeline. You ca
 ```
 pip install streamlit_timeline
 ```
-
+## Demo
+This application is hosted in Streamlit community cloud.  
+Click here to access application: [Kunal Goel Resume](https://kunalgoel.streamlit.app/)
 
 ## Built with
 
@@ -24,9 +26,7 @@ This project is built with Streamlit built on python.
 [Streamlit](https://streamlit.io/)
 ![Streamlit](https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/streamlit.jpeg)
 
-## Demo
-This application is hosted in Streamlit community cloud.  
-Click here to access application: [Kunal Goel Resume](https://kunalgoel.streamlit.app/)
+
 
 ## Contact
 **Name:** Kunal Goel  

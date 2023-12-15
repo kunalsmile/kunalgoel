@@ -94,5 +94,37 @@
             "level": "3",
             "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/payara.png"
         }
+    ],
+    "methodologies": [
+        {
+            "skill": "Agile with Scrum",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Technical Design Documents",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Design Patterns",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "REST Prinicples",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Application Security",
+            "level": "3",
+            "imageUrl": ""
+        },
+        {
+            "skill": "Product Owner",
+            "level": "3",
+            "imageUrl": ""
+        }
     ]
 }

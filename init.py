@@ -13,6 +13,12 @@ st.header("About me")
 st.write("Engineering Manager with enriched experience in developing enterprise applications and motivating individuals. Experience in frontend and backend technologies -AWS Services, Core Java, .NET, Postgres, MSSQL AWS Services, NodeJS. Core strength in improving customer satisfaction through high quality software. Always looking to expand skill set and searching for new learning opportunities. Built different metrics to look for opportunities to improve.")
 st.divider()
 
+st.header("Key Highlights")
+with open('./data/highlights.html', "r") as f:
+    data = f.read()
+    st.markdown(data, unsafe_allow_html=True)
+st.divider()
+
 def professional_timeline():
     st.header("Professional Timeline")
     with open('./data/professional_timeline.json', "r") as f:
@@ -26,6 +32,7 @@ def professional_timeline():
                 pro["events"][i]["end_date"]["month"] = today.month             
                 
     timeline(pro)
+    st.divider()
 
 
 def educational_timeline():
@@ -33,6 +40,7 @@ def educational_timeline():
     with open('./data/educational_timeline.json', "r") as f:
         data = f.read()
     timeline(data)
+    st.divider()
 
 
 def createSidebar():
@@ -52,11 +60,10 @@ def createSidebar():
 
 def create_skill():
     st.header("Skills")
-    languageColumn, toolsColumn, technologyColumn = st.columns(3)
+    languageColumn, toolsColumn = st.columns(2)
     languageColumn.info("Languages & Platforms")
-    technologyColumn.info("Technologies")
     toolsColumn.info("Tools")
-
+    
     with open('./data/skills.json', "r") as f:
         data = f.read()
     skills = json.loads(data)
@@ -64,14 +71,16 @@ def create_skill():
         languageColumn.image(skill["imageUrl"], width=100)
     for tool in skills["tools"]:
         toolsColumn.image(tool["imageUrl"], width=100)
-        # toolsColumn.button(tool["skill"])    
+        
+    methods = ""
+    for method in skills["methodologies"]:
+        methods += "<ul><div style='box-shadow: 2px 2px 20px 23px #7fecad;border-radius: 4px;padding: 10px;background-color: #2ecc71; width: 50%'>" + method["skill"] + "</div></ul>"
 
+    st.header("Other Skills")    
+    st.markdown(methods, unsafe_allow_html=True)
+    st.divider()
 
 create_skill()
 professional_timeline()
-st.divider()
-
-st.divider()
 educational_timeline()
-st.divider()
 createSidebar()

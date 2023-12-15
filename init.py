@@ -11,12 +11,11 @@ st.set_page_config(
 
 st.header("About me")
 st.write("Engineering Manager with enriched experience in developing enterprise applications and motivating individuals. Experience in frontend and backend technologies -AWS Services, Core Java, .NET, Postgres, MSSQL AWS Services, NodeJS. Core strength in improving customer satisfaction through high quality software. Always looking to expand skill set and searching for new learning opportunities. Built different metrics to look for opportunities to improve.")
-st.divider()
 
-st.header("Key Highlights")
+expander = st.expander("Key Highlights")
 with open('./data/highlights.html', "r") as f:
     data = f.read()
-    st.markdown(data, unsafe_allow_html=True)
+    expander.markdown(data, unsafe_allow_html=True)
 st.divider()
 
 def professional_timeline():
@@ -68,9 +67,9 @@ def create_skill():
         data = f.read()
     skills = json.loads(data)
     for skill in skills["languages"]:
-        languageColumn.image(skill["imageUrl"], width=100)
+        languageColumn.image(skill["imageUrl"], width=100, caption=skill["skill"])
     for tool in skills["tools"]:
-        toolsColumn.image(tool["imageUrl"], width=100)
+        toolsColumn.image(tool["imageUrl"], width=100, caption=tool["skill"])
         
     methods = ""
     for method in skills["methodologies"]:

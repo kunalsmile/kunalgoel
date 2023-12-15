@@ -12,8 +12,8 @@
             "month":"9"
           },
         "text": {
-          "headline": "Junior Software Engineer<br>Reliance Info Solutions Ltd.",
-          "text": "<p><b>Projects</b>Involved in code construction, designing, client communication, Unit Testing and deployment.</p>"
+          "headline": "Junior Software Engineer @<br>Reliance Info Solutions Ltd.",
+          "text": "<p><b>Project Name: RMCM</b><br>RMCM application was built to support milk collection for dairy products. The application was designed to support the operators to establish the quality and quantity of the supplied milk and set the price depending on the quality of the milk. This application was designed to work in the remote computer with zero connectivity and data was brought to main servers via pen drive with 100% accuracy and no data loss. The application was designed to support hardware devices to calculate milk quality, weight measurement and display via RS32 communication.<br><b>Roles & responsibilities: </b>Involved in code construction, harware callibration, client communication, Unit Testing and deployment.<br><b>Tools & tech:</b> ASP.NET, C#, MSSQL, RS32, VB.NET</p>"
         },
         "media": {
             "url": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/reliance.jpg",
@@ -34,8 +34,8 @@
           "month":"5"
         },
         "text": {
-          "headline": "Software Engineer<br>Mphasis an HP company",
-          "text": "<b>Project Name:</b> JetAirways<br>The application is designed for the customers of the Jet Airways India Ltd. This is a Jet Airways Portal accessible by JetPrivilege members, guest users and anonymous users. It provides various functionalities like online booking, Manage Booking, PNR Status, Hotel Booking, Web Check-in, Currency Converter, Time Zone Converter, Time Zone Converter, Forgot Password, Change Password, Mileage Calculator, Jet Wallet (Mobile Ticketing), Flight Status, etc. Involved in code construction, designing, client communication, Unit Testing and deployment."
+          "headline": "Software Engineer @<br>Mphasis an HP company",
+          "text": "<b>Project Name:</b> JetAirways<br>The application is designed for the customers of the Jet Airways India Ltd. This is a Jet Airways Portal accessible by JetPrivilege members, guest users and anonymous users. It provides various functionalities like online booking, Manage Booking, PNR Status, Hotel Booking, Web Check-in, Currency Converter, Time Zone Converter, Time Zone Converter, Forgot Password, Change Password, Mileage Calculator, Jet Wallet (Mobile Ticketing), Flight Status, etc. <br><b>Roles & responsibilities: </b>Involved in code construction, harware callibration, client communication, Unit Testing and deployment.<br><b>Tools & tech:</b> ASP.NET, C#, MSSQL, jQuery</p>"
         }
       },
       {
@@ -52,8 +52,8 @@
           "month":"12"
         },
         "text": {
-          "headline": "Software Engineer<br>Monitor Group",
-          "text": "<b>Project Name:</b> TimeSheet Management<br>Involved in designing, requirement gathering, coding and maintenance."
+          "headline": "Software Engineer @<br>Monitor Group",
+          "text": "<p><b>Project Name:</b> TimeSheet Management<br>The application was designed for internal employees to track effort on different projects.<br><b>Roles & responsibilities: </b>Involved in code construction, harware callibration, client communication, Unit Testing and deployment.<br><b>Tools & tech:</b> ASP.NET, C#, MSSQL, jQuery, Telerik</p>"
         }
       },
       {
@@ -71,7 +71,7 @@
         },
         "text": {
           "headline": "Senior Software Engineer<br>Hexaware Technologies",
-          "text": "<b>Project Name: </b>eHealth"
+          "text": "<p><b>Project Name: </b>eHealth<br>eHealth was the data aggregator from the different databases for different clients. This was a reporting tool to generate billing reports for different stakeholders. The application had two components, one was to fetch data from different databases and a portal to generate reports.<br><b>Roles & responsibilities: </b>Involved in code construction, harware callibration, client communication, Unit Testing and deployment.<br><b>Tools & tech:</b> ASP.NET, C#, MSSQL, jQuery</p>"
         }
       },
       {
@@ -88,8 +88,8 @@
           "month":"0"
         },
         "text": {
-          "headline": "Engineer Manager<br>NextGen Healthcare",
-          "text": "<b>Project Name: </b>HDH"
+          "headline": "Engineer Manager @<br>NextGen Healthcare",
+          "text": "<p><b>Project Name: </b>HDH<br>HDH is a system that enables the secure sharing of electronic health information among different healthcare organizations and systems. The primary goal of HDH is to support HIE and is to facilitate the exchange of patient health information, such as medical records, test results, prescriptions, and other relevant data, to support the continuity of care, improve patient outcomes, and enhance the overall efficiency of the healthcare system.Roles & responsibilities: </b> Worked on different applications for HIE. <br>Evolved from a software engineer and worked on different roles like Scrum Master, Product Owner, Product Architect & handling Engineering Manager role from last 2 years. Team management, Product Roadmap, Involved in code construction, Technical Design, Application Security, Client communication & migration from legacy to new application, Unit Testing and deployment.<br><b>Tools & tech:</b> JSP, Java, Postgres, jQuery, NodeJS, Angular, Shell Script, AWS, PHP, VMWare</p>"
         }
       }
     ]

@@ -50,6 +50,11 @@
             "skill": "Angular",
             "level": 3,
             "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/angular.png"
+        },
+        {
+            "skill": "Streamlit",
+            "level": 3,
+            "imageUrl": "https://raw.githubusercontent.com/kunalsmile/kunalgoel/main/assets/streamlit.jpeg"
         }
 
     ],

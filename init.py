@@ -1,14 +1,15 @@
 import streamlit as st
 from streamlit_timeline import timeline
 import json
-from datetime import datetime
+from datetime import datetime, date
+from dateutil.relativedelta import relativedelta
 
 st.set_page_config(
     page_title="Kunal Goel",
     page_icon="https://raw.githubusercontent.com/kunalsmile/kunalgoel/0b29e507525a196591f275232c54a7113043993b/resume_image.png",
     layout="wide"
 )
-
+today = datetime.today()
 st.header("About me")
 st.write("Engineering Manager with enriched experience in developing enterprise applications and motivating individuals. Experience in frontend and backend technologies -AWS Services, Core Java, .NET, Postgres, MSSQL AWS Services, NodeJS. Core strength in improving customer satisfaction through high quality software. Always looking to expand skill set and searching for new learning opportunities. Built different metrics to look for opportunities to improve.")
 
@@ -23,8 +24,6 @@ def professional_timeline():
     with open('./data/professional_timeline.json', "r") as f:
         data = f.read()
         pro = json.loads(data)
-        today = datetime.today()
-        
         for i in range(len(pro["events"])):
             if pro["events"][i]["end_date"]["year"] == "0":
                 pro["events"][i]["end_date"]["year"] = today.year
@@ -43,9 +42,14 @@ def educational_timeline():
 
 
 def createSidebar():
+    startDate =  date(2007, 2, 1)
+    difference = relativedelta(today, startDate)
+
+    if difference.months >= 10:
+        difference.years += 1
     st.sidebar.image("https://raw.githubusercontent.com/kunalsmile/kunalgoel/0b29e507525a196591f275232c54a7113043993b/resume_image.png")
     st.sidebar.header("Kunal Goel")
-    st.sidebar.write("Engineering manager with 16+ years of experience in high quality enterprise application development and management.")
+    st.sidebar.write("Engineering manager with " + str(difference.years) + " years of experience in high quality enterprise application development and management.")
     st.sidebar.write(":email: kunalsmile@gmail.com")
     st.sidebar.write(":iphone: +919986010491")
     st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/goelkunal/)")

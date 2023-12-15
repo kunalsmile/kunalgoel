@@ -42,7 +42,7 @@ def createSidebar():
     st.sidebar.write(":email: kunalsmile@gmail.com")
     st.sidebar.write(":iphone: +919986010491")
     st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/goelkunal/)")
-    with open("/data/kunalgoelresume.docx", "rb") as file:
+    with open("kunalgoelresume.docx", "rb") as file:
         btn = st.sidebar.download_button(
             label="Download resume",
             data=file,

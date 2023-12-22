@@ -7,9 +7,14 @@ from dateutil.relativedelta import relativedelta
 st.set_page_config(
     page_title="Kunal Goel",
     page_icon="https://raw.githubusercontent.com/kunalsmile/kunalgoel/0b29e507525a196591f275232c54a7113043993b/resume_image.png",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state=st.session_state.get('sidebar_state', 'expanded'),
 )
 today = datetime.today()
+
+def closeSidebar(status):
+    st.session_state.sidebar_state = status
+
 st.header("About me")
 st.write("Engineering Manager with enriched experience in developing enterprise applications and motivating individuals. Experience in frontend and backend technologies -AWS Services, Core Java, .NET, Postgres, MSSQL AWS Services, NodeJS. Core strength in improving customer satisfaction through high quality software. Always looking to expand skill set and searching for new learning opportunities. Built different metrics to look for opportunities to improve.")
 
@@ -34,17 +39,19 @@ def professional_timeline():
 
 
 def educational_timeline():
-    st.header("Educational Timeline")
+    st.header("Educational Timeline 📖")
     with open('./data/educational_timeline.json', "r") as f:
         data = f.read()
     timeline(data)
     st.divider()
 
 
+
+
 def createSidebar():
     startDate =  date(2007, 2, 1)
     difference = relativedelta(today, startDate)
-
+    # st.sidebar.button("Close sidebar",on_click=closeSidebar('collapsed'))
     if difference.months >= 10:
         difference.years += 1
     st.sidebar.image("https://raw.githubusercontent.com/kunalsmile/kunalgoel/0b29e507525a196591f275232c54a7113043993b/resume_image.png")
@@ -62,7 +69,7 @@ def createSidebar():
           )
 
 def create_skill():
-    st.header("Skills")
+    st.header("Skills ⚒️")
     languageColumn, toolsColumn = st.columns(2)
     languageColumn.info("Languages & Platforms")
     toolsColumn.info("Tools")

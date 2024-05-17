@@ -56,7 +56,8 @@ def createSidebar():
         difference.years += 1
     st.sidebar.image("https://raw.githubusercontent.com/kunalsmile/kunalgoel/0b29e507525a196591f275232c54a7113043993b/resume_image.png")
     st.sidebar.header("Kunal Goel")
-    st.sidebar.write("Engineering manager with " + str(difference.years) + " years of experience in high quality enterprise application development and management.")
+    # st.sidebar.write("Engineering manager with " + str(difference.years) + " years of experience in high quality enterprise application development and management.")
+    st.sidebar.write("A seasoned Software Development Manager with over " + str(difference.years) + " years of experience in the realm of high-quality enterprise application development and management. Specialized in ecommerce platforms technologies, I have a proven track record of leading and mentoring high-performing teams. My leadership is deﬁned by a steadfast commitment to delivering exceptional results, making me an invaluable asset to any team seeking to elevate their engineering projects to new heights of success.")
     st.sidebar.write(":email: kunalsmile@gmail.com")
     st.sidebar.write(":iphone: +919986010491")
     st.sidebar.write("[LinkedIn](https://www.linkedin.com/in/goelkunal/)")

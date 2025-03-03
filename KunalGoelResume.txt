@@ -1,0 +1,148 @@
+Kunal GoelAbout Me
+
+
+
+
+
+
+
+
+
+Engineering manager with 17+ years of experience in high quality enterprise application development and management.
+
+Bangalore, Karnataka
+
++919986010491
+
+kunalsmile@gmail.com 
+
+https://www.linkedin.com/in/goelkunal/ 
+https://kunalgoel.streamlit.app/ 
+Engineering Manager with enriched experience in developing enterprise applications and motivating individuals. Experience in frontend and backend technologies -Cloud technologies, Core Java, .NET, Postgres, MSSQL AWS Services, NodeJS. Core strength in improving customer satisfaction through high quality software. Always looking to expand skill set and searching for new learning opportunities. Built different metrics to look for opportunities to improve.
+
+Key Highlights:
+* Collaborating with senior leadership to define and execute the product and technology roadmap.
+* Providing visionary leadership to the engineering team, fostering culture of collaboration, innovation, and continuous improvement. 
+* Recruiting, mentoring, and developing a high-performance engineering team.
+* Setting clear goals and expectations for the team and ensuring effective communication within team.
+* Oversee end-to-end product development lifecycle.
+* Holding and enhancing engineering best practices, coding standards, and quality assurance processes.
+* Creating roadmaps and opportunities of growth in new areas through innovation and POC’s.
+* Work with key stakeholders like Engineering Leaders, Product managers, Product owners and Product architect to create feature and PTR backlog with enriched stories and epics.
+* Part of flagship product where performance with handling of huge data, quality, long term maintenance, security and crisp customer experience is of utmost priority.
+* Represent India teams in meetings with product architects and other stakeholders. Actively take part in panel discussions, brainstorming sessions and architecture committee meetings related to work taken up by the team. 
+* Expert in handling cross-team communication, as the application is shared across multiple teams across geographic areas, so technical alignment becomes a key activity
+
+Education
+MCSA
+   K J Somaiya (SIMSR), Mumbai     Completed, June 2007B.Sc.
+  ECC, Prayagraj     Completed, June 2004Professional Experience* Engineering Manager at Nextgen Healthcare from Oct '12 till date ( 11y 9m )
+* Senior Software Engineer at Hexaware Technologies Limited Jan '12 till Oct '12
+* Senior Software Engineer at Monitor Group from May '11 till Dec '11
+* Software Engineer at Mphasis from Sep '08 till May '11
+* Programmer at Reliance Info Solution Pvt. Ltd from Feb '07 till Sep '08 
+
+Work Experience
+Oct 2012 – Current 
+Engineering Manager
+Project Name: Health Data Hub
+NexGen Healthcare - Bangalore, Karnataka 
+* Engineering Manager for HDH India team with around 10 team members. 
+* Key deliverables are - scaling up existing team to take up work effectively, create new opportunities based on discussions with product team and product architect, motivating team for innovation and POC of work items to create new roadmap and focus on mid- and long-term product work.
+* Help and mentor team to with the sprint deliverables and unblock the technical impediments.
+* Effective collaboration with Product, Support, Accounts, and Implementations teams.
+* Identified improvement opportunities in internal tool – Migratinator that is used to migrate customers from legacy application to HDH (uses NodeJS and Adonis).
+* Participated in UI mock-up creation and design reviews with product manager on HeL and HSX migration blocker features and brainstormed on usability of the UI design and suggested required changes.
+* Worked on AppSec vulnerabilities reported by Fortify tool keeping top vulnerabilities ranked by OWASP on high priority. Helped team by triaging the issues and providing appropriate solution for the reported vulnerabilities.
+* Cost saving opportunity identification – Identified the areas that generate most of AWS cost in Dev and Prod accounts.
+* Contributed to Product Technical Roadmap – Task engine, OpsBus redesign, RDS connection optimization work, AWS cost savings.
+* Transformed individuals from a low performer to a star performer in the team.
+* Evolved team mindset as a true product team by transforming full time QAs into developers.
+* Effective usage of organization tools to keep team members motivated.
+
+Skills:  Java, .NET, AWS technologies, NodeJs, Postgres, Shell Script
+Tools: GIT, Jenkins, Confluence (writing technical pages), Power Automate, Mirth Connect
+
+Aug 2014 – May-2022 
+Sr. Staff Engineer
+Project Name: CDR & Appliance
+NexGen Healthcare - Bangalore, Karnataka 
+* Product Architect for CDR team.
+* Key deliverables are to handle support issues and AppSec vulnerabilities in the application.
+* Help and mentor team to with the sprint deliverables and unblock the technical impediments.
+* Worked on different features and workflows in the product.
+* Integrated with NextGen EHR to transport data from one point to another in secured manner using data formats like HL7 and CDAs. Built capability to generate and parse CDAs.
+* Worked on AppSec vulnerabilities reported by Fortify tool keeping top vulnerabilities ranked by OWASP on high priority. Helped team by triaging the issues and providing appropriate solution for the reported vulnerabilities.
+* Helped client to resolve virtual environment related problems.
+* Worked on CentOS migration from a lower version to CentOS 8.
+* Effective collaboration with support team.
+* Supported team by capturing and understanding requirements and come up with technical design.
+
+Skills:  Jenkins, Java, VMWare, Postgres, Shell Script.
+Tools: GIT, Jenkins, Confluence (writing technical pages), CentOS, Mirth Connect
+
+Oct 2012 – Aug 2014
+Project Name: NG HIE
+Senior Software Engineer
+NextGen Healthcare – Bangalore, Karnataka
+* Worked on different features and workflows in the product.
+* Integrated with NextGen EHR to transport data from one point to another in secured manner.
+
+Jan 2012 – Oct 2012
+Project Name: eHealth 
+Senior Software Engineer
+Hexaware Technologies – Mumbai, Maharashtra
+* Involved in designing, requirement gathering, coding and maintenance.
+
+May 2011 - Dec 2011 
+Project Name: TimeSheet Management
+Software Engineer
+Monitor Group – Mumbai, Maharashtra
+* Involved in designing, requirement gathering, coding and maintenance.
+
+Sep 2008 – May 2011
+Project Name: Jet Airways
+Software Engineer
+Mphasis – Mumbai, Maharashtra
+* The application is designed for the customers of the Jet Airways India Ltd. This is a Jet Airways Portal accessible by JetPrivilege members, guest users and anonymous users. It provides various functionalities like online booking, Manage Booking, PNR Status, Hotel Booking, Web Check-in, Currency Converter, Time Zone Converter, Time Zone Converter, Forgot Password, Change Password, Mileage Calculator, Jet Wallet (Mobile Ticketing), Flight Status, etc.
+* Involved in code construction, designing, client communication, Unit Testing and deployment.
+
+Skills:  .NET, MSSQL, jQuery, ASP.NET
+
+Feb 2007 – Sep 2008
+Software Engineer
+Reliance Info Solutions Ltd – Mumbai, Maharashtra
+
+* Involved in code construction, designing, client communication, Unit Testing and deployment.
+Skills:  .NET, MSSQL, jQuery, ASP.NET
+
+Skills
+
+
+Languages Java, .NET JavaScript, AngularJS, HTML, NodeJS, REST, SOAP, Core Java, Shell Script, SQL, Unix commands 
+
+Technologies: AWS services, S3, EC2, ECS, RDS, RDS Proxy, HTML
+
+Methodologies: Agile with Scrum Methodology
+ Tools:, Visual Studio Code,
+IntelliJ, JIRA, Sumologic, Datadog, GIT, Jenkins, Maven, Confluence, postman, PgAdmin, Postgres, Glassfish, CentOS, Power Automate
+ General Skills: Preparing Technical design documents, Responsive UI, Reactive programming Design patterns, Collections, REST principles, Cross browser compatibility, Developer tools in browser, accessibility, internationalization. Engineering Skills 
+
+Languages
+? Java
+? .NET/C#
+? JavaScript
+? NodeJS
+? Core Java
+? jQuery
+? AngularJS
+      AWS Services
+? S3
+? EC2
+? ECS
+? RDS Postgres
+? SQS
+         Development Tools
+? VS Code
+? Visual Studio
+? IntelliJ

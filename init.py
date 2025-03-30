@@ -4,12 +4,20 @@ import json
 from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
 
+
+
 st.set_page_config(
     page_title="Kunal Goel",
     page_icon="https://raw.githubusercontent.com/kunalsmile/kunalgoel/0b29e507525a196591f275232c54a7113043993b/resume_image.png",
     layout="wide",
     initial_sidebar_state=st.session_state.get('sidebar_state', 'expanded'),
 )
+
+@st.cache_data(ttl=86400)  # Cache expires every 24 hours
+def get_data():
+    return None
+
+get_data()
 today = datetime.today()
 
 def closeSidebar(status):
